@@ -1,0 +1,39 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&family=Montserrat:wght@100;300;400;700&display=swap');
+
+// Default styles
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,body {
+    overflow-x: hidden;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 1rem;
+
+    a {
+        color:$black;
+        &:hover{
+            text-decoration: none;
+            color:$black;
+
+
+        }
+    }
+
+    button,
+    button:focus {
+        outline: 0;
+        border:0;
+    }
+
+}
+
+
+
+// Breakpoints
+
+$bp-medium: '800px';
+$bp-large: '1200px';
