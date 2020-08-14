@@ -16,6 +16,7 @@
         z-index: 999;
         top:120px;
         left:30px;
+        user-select: none;
 
         @include medium-up{
             top:35%;

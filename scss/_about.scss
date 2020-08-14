@@ -1,0 +1,53 @@
+.about {
+    margin-top: 65px;
+   &__heading{
+       font-family: 'Montserrat';
+       font-weight: 500;
+   }
+   &__divider{
+       height: 3px;
+       width: 150px;
+       background: $primary;
+       animation: movingDivider 6s ease 2s infinite;
+   }
+   &__text {
+       font-size: 1.25rem;
+   }
+   &__text2 {
+    font-size: 1.25rem;
+    color:$light-gray;
+    }
+    &__btn {
+        margin-top: 30px;
+        width: 150px;
+        padding: 10px;
+        background: transparent;
+        border:1px solid $primary;
+        border-radius: 10px;
+        transition: .6s;
+        box-shadow: 3px 3px 15px rgba(0,0,0,.3);
+        font-weight: 500;
+        &:hover{
+            background: $primary;
+            color:$light-gray;
+        }
+    }
+
+
+
+
+
+
+   // keyframes
+   @keyframes movingDivider {
+       0%{
+        transform: translateX(0);
+       }
+       50%{
+        transform: translateX(70px);
+       }
+       100%{
+        transform: translateX(0px);
+       }
+   }
+}

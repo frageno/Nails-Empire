@@ -46,12 +46,15 @@
         transition: .6s;
         opacity: .7;
         &:hover{
-            transform: translateY(-1px);
+            transform: translateY(-2px);
         }
     }
     li {
 
         font-size: 22px;
+    }
+    .active a{
+        color:$primary!important;
     }
 
     &__line1, &__line2, &__line3 {
@@ -71,3 +74,4 @@
         transform: rotate(45deg) translate(-5px, -6px);
     }
 }
+
