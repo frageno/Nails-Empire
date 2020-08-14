@@ -22,7 +22,7 @@
                 <div class="col-lg-3">
                     <strong>Open:</strong> Mon-Fri 9-17
                 </div>
-                <div class="col-lg-6 d-flex justify-content-end mt-1">
+                <div class="col-lg-6 d-flex justify-content-end">
                     <a href="https://www.facebook.com/" class="header__link">
                         <i class="fab fa-facebook pr-3"></i>
                     </a>
@@ -40,7 +40,7 @@
         <div class="container">
 
         <nav class="navbar navbar-expand-lg pt-3" >
-            <a class="navbar-brand " href="#">
+            <a class="navbar-brand" href="index.html">
                 <img src="images/brand-name.png" alt="">
             </a>
             <button class="navbar-toggler" id="nav-button" type="button" data-toggle="collapse" data-target="#myNav" aria-controls="myNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -51,10 +51,10 @@
             <div class="collapse navbar-collapse justify-content-end" id="myNav">
                 <ul class="navbar-nav mt-2 mt-lg-0 text-center">
                   <li class="nav-item active">
-                    <a class="nav-link header__nav-link" href="#">Home</a>
+                    <a class="nav-link header__nav-link" href="index.html">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link header__nav-link" href="#">About</a>
+                    <a class="nav-link header__nav-link" href="about.html">About</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link header__nav-link" href="#">Services</a>
@@ -94,23 +94,49 @@
         </div>
     </header>
     <!-- end of header-->
-    <section class="slider">
+    <!-- slider -->
+    <section class="py-5 slider">
         <div class="container pt-lg-4">
             <div class="row">
                 <div class="col-lg-5" >
-                    <div class="slider__heading" data-aos="fade-right">
+                    <div class="slider__heading" data-aos="fade-right" data-aos-once="true">
                     <h1>Nails detail is a key</h1>
                     <p>The best products in the world in our local.</p>
                     <button class="slider__btn">Read more</button>
                     </div>
 
                 </div>
-                <div class="col-lg-7 slider__bg" data-aos="fade-left">
+                <div class="col-lg-7 slider__bg" data-aos="fade-left"
+                data-aos-once="true">
 
                 </div>
             </div>
         </div>
     </section>
+    <!-- end of slider -->
+    <!-- about us section -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <img src="images/about-img.png" class="img-fluid">
+                </div>
+                <div class="col-lg-6 py-5 about">
+                    <h2 class="about__heading">Why Our Clients Choose Us</h2>
+                    <div class="about__divider"></div>
+                    <p class="pt-5 pb-3 about__text">We are one of the best nail's salon in the South California, our team puts on the detail at work.</p>
+                    <p class="about__text2">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et, molestiae incidunt veniam esse eveniet quidem sit iure. Ipsum hic, nemo quis, officia sed tenetur, vel atque suscipit similique alias obcaecati!
+                    </p>
+                    <button class="about__btn" id="about-btn">Read more</button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- end of about us section -->
+
+
 
 
 
@@ -119,7 +145,8 @@
     <script>
       AOS.init({
           duration:1800,
-          delay:300
+          delay:300,
+
       });
     </script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
