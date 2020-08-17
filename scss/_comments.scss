@@ -1,0 +1,13 @@
+.comments {
+    background:$primary;
+    opacity: .7;
+    height: 70vh;
+
+    &__heading{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 2.5rem;
+        color:$black;
+
+    }
+
+}

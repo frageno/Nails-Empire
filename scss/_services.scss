@@ -1,0 +1,75 @@
+.services {
+    padding: 50px;
+    border-bottom:1px solid #dadada;
+
+    &:last-child{
+        border:0;
+    }
+    &__heading{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.75rem;
+    }
+    &__divider{
+        border-bottom: 3px solid $primary;
+        width: 50%;
+        display: block;
+        margin: 0 auto;
+        padding: 20px;
+    }
+    &__text {
+        color:$light-gray;
+    }
+    &__container-img{
+        position: relative;
+        box-shadow: 5px 5px 25px $light-gray;
+        &:hover {
+            border:0;
+            .services__overlay{
+                top:0;
+                height: 100%;
+            }
+        }
+    }
+    &__overlay{
+        position: absolute;
+        top:100%;
+        left:0;
+        right: 0;
+        background: rgba(255,213,205,.5);
+        overflow:hidden;
+        width: 100%;
+        height: 0;
+        transition: .6s ease;
+    }
+    &__overlay2{
+        position: absolute;
+        top:100%;
+        left:0;
+        right: 0;
+        background: rgba(255,213,205,1);
+        overflow:hidden;
+        width: 100%;
+        height: 0;
+        transition: .6s ease;
+    }
+
+    &__overlay-text{
+        color:$black;
+        font-size: 1.5rem;
+        font-weight: bold;
+        position: absolute;
+        top:50%;
+        left:50%;
+        transform: translate(-50%,-50%);
+        text-align: center;
+    }
+    &__contact-btn{
+        position: absolute;
+        top:65%;
+        left:50%;
+        transform: translate(-50%,-50%);
+        padding: 10px;
+        background:transparent;
+
+    }
+}
