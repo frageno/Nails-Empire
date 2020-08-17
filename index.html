@@ -10,7 +10,13 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
-
+    <!-- scroll to the top -->
+    <div class="btn-container">
+        <button id="scrollToTop" class="btn-container__scrollToTop">
+            <i class="fas fa-arrow-up text-white"></i>
+        </button>
+    </div>
+    <!-- end of scroll to the top -->
     <!-- header -->
     <header class="header">
         <div class="container-fluid header__info">
@@ -99,7 +105,8 @@
         <div class="container pt-lg-4">
             <div class="row">
                 <div class="col-lg-5" >
-                    <div class="slider__heading" data-aos="fade-right" data-aos-once="true">
+                    <div class="slider__heading" data-aos="fade-right" data-aos-once="true"
+                    data-aos-duration="1500">
                     <h1>Nails detail is a key</h1>
                     <p>The best products in the world in our local.</p>
                     <button class="slider__btn">Read more</button>
@@ -107,7 +114,8 @@
 
                 </div>
                 <div class="col-lg-7 slider__bg" data-aos="fade-left"
-                data-aos-once="true">
+                data-aos-once="true"
+                data-aos-duration="1500">
 
                 </div>
             </div>
@@ -135,6 +143,108 @@
         </div>
     </section>
     <!-- end of about us section -->
+    <!-- services section -->
+    <section class="py-3">
+        <div class="container">
+            <div class="row pb-5 services__heading">
+                <div class="col-12 text-center">
+                    <h2 class="services__divider">Our services</h2>
+                    <p class="small pt-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur molestias exercitationem quo sed unde autem. Maiores in delectus sapiente eum!</p>
+                </div>
+            </div>
+            <div class="row services align-items-center pt-5" data-aos="fade-left">
+                <div class="col-lg-6 text-center">
+                    <img src="images/brushes-img2.png" class="img-fluid">
+                </div>
+                <div class="col-lg-6 text-center">
+                    <h2 class="py-4 services__heading">Free make-up after full option pass</h2>
+                    <p class="services__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat sint eos earum dolorem, aspernatur aliquam quas, nemo, temporibus minus explicabo a. Quis ipsam asperiores quod.</p>
+                </div>
+            </div>
+                <div class="row services align-items-center" data-aos="fade-right">
+                    <div class="col-lg-6 text-center">
+                        <h2 class="py-4 services__heading">Nail's art by our stylists</h2>
+                        <p class="services__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat sint eos earum dolorem, aspernatur aliquam quas, nemo, temporibus minus explicabo a. Quis ipsam asperiores quod.</p>
+                    </div>
+                    <div class="col-lg-6 services__box1 text-center">
+                        <img src="images/brushes-img.png" class="img-fluid">
+                    </div>
+                </div>
+                <div class="row services align-items-center" data-aos="fade-left">
+                    <div class="col-lg-6 services__box1 text-center">
+                        <img src="images/brushes-img3.png" class="img-fluid">
+                    </div>
+                    <div class="col-lg-6 text-center">
+                        <h2 class="py-4 services__heading">Pedicure and manicure</h2>
+                        <p class="services__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat sint eos earum dolorem, aspernatur aliquam quas, nemo, temporibus minus explicabo a. Quis ipsam asperiores quod.</p>
+                    </div>
+                </div>
+
+
+        </div>
+
+    </section>
+    <!-- end of services section -->
+    <!-- team -->
+    <section class="py-5">
+        <div class="container" data-aos="fade-up" >
+            <div class="row pb-5 services__heading">
+                <div class="col-12 text-center">
+                    <h2 class="services__divider">Our team</h2>
+                    <p class="small pt-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit pariatur ad recusandae voluptas perferendis.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="services__container-img">
+                        <img src="images/team.jpg" class="img-fluid">
+                    <div class="services__overlay">
+                        <div class="services__overlay-text">Izabell Wings <br />
+                        Manicurist</div>
+                    </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 py-5 py-lg-0">
+                    <div class="services__container-img">
+                        <img src="images/team2.jpg" class="img-fluid">
+                    <div class="services__overlay">
+                        <div class="services__overlay-text">Stephani Yellst <br />
+                        Manicurist</div>
+                    </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="services__container-img">
+                        <img src="images/team3.jpg" class="img-fluid">
+                    <div class="services__overlay">
+                        <div class="services__overlay-text">Izu Ughut <br />
+                        Menager</div>
+                        <button class="services__contact-btn" id="contact-btn">Contact me</button>
+                    </div>
+
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of team -->
+    <!-- comments -->
+    <section class="py-5">
+        <div class="container-fluid comments">
+            <div class="container">
+                <div class="row py-5">
+                    <div class="col-12 text-center">
+                        <h2 class="comments__heading py-3">Customers opinion</h2>
+                        <i class="fas fa-arrow-down fa-2x"></i>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of comments -->
 
 
 
@@ -144,14 +254,17 @@
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
       AOS.init({
-          duration:1800,
-          delay:300,
+        duration: 1000,
 
       });
     </script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script
+    src="https://code.jquery.com/jquery-3.5.1.js"
+    integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+    crossorigin="anonymous"></script>
     <script src="main.js"></script>
 </body>
 </html>
