@@ -1,0 +1,39 @@
+.footer{
+
+    &__heading{
+
+
+        @include medium-up{
+        text-align: center;
+
+        }
+
+        p,li,a{
+            font-size: 1rem;
+            color:$light-gray;
+        }
+        ul {
+            list-style-type: none;
+        }
+
+
+    }
+    &__divider{
+        border-bottom: 3px solid $primary;
+        width: 50%;
+        display: block;
+        padding: 20px 0;
+        font-size: 1.25rem;
+
+        @include medium-up{
+        margin: 0 auto;
+
+        }
+
+
+    }
+    &__copyright{
+        background: $primary;
+        color:$light-gray;
+    }
+}

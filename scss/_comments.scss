@@ -1,7 +1,9 @@
 .comments {
     background:$primary;
     height: 120vh;
-
+    @include medium-up{
+        height: 80vh;
+    }
     @include large-up{
         height: 60vh;
     }
@@ -17,7 +19,9 @@
         border-radius: 50%;
     }
 
+
 }
+
 
 .carousel-indicators li {
     width: 8px!important;
