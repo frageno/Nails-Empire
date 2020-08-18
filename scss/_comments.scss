@@ -1,7 +1,10 @@
 .comments {
     background:$primary;
-    opacity: .7;
-    height: 70vh;
+    height: 120vh;
+
+    @include large-up{
+        height: 60vh;
+    }
 
     &__heading{
         font-family: 'Montserrat', sans-serif;
@@ -10,4 +13,15 @@
 
     }
 
+    img {
+        border-radius: 50%;
+    }
+
+}
+
+.carousel-indicators li {
+    width: 8px!important;
+    height: 8px!important;
+    border-radius: 50%;
+    background-color: $light-gray!important;
 }

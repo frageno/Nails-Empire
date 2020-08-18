@@ -1,0 +1,20 @@
+.pricing{
+
+
+    &__classic-item{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 1px solid #ccc;
+        padding: 20px 0;
+
+    }
+    &__classic-item:last-child{
+        border:0;
+    }
+    &__body{
+        p {
+            color:$light-gray;
+        }
+    }
+}
