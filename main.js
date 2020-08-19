@@ -9,6 +9,12 @@ const phoneNumber = document.getElementById("phoneNum");
 const message = document.getElementById('message');
 
 
+// Set the time gone preloader
+setTimeout(function(){
+
+    $('#preloader-active').toggle();
+
+},3500);
 // Add class to hamburger icon
 function hamburgerIcon(){
     navButton.classList.toggle('header__change');
