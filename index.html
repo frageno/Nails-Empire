@@ -31,7 +31,7 @@
     <!-- end of scroll to the top -->
     <!-- header -->
     <header class="header">
-        <div class="container-fluid header__info">
+        <div class="container-fluid header__info animate__animated animate__slideInDown animate__delay-3s">
             <div class="container">
                 <div class="row">
                 <div class="col-lg-3">
@@ -57,7 +57,7 @@
 
         <div class="container">
 
-        <nav class="navbar navbar-expand-lg pt-3" >
+        <nav class="navbar navbar-expand-lg pt-3">
             <a class="navbar-brand" href="index.html">
                 <img src="images/brand-name.png" alt="">
             </a>
@@ -118,8 +118,8 @@
             <div class="row">
                 <div class="col-lg-5" >
                     <div class="slider__heading">
-                    <h1>Nails detail is a key</h1>
-                    <p>The best products in the world in our local.</p>
+                    <h1 class="">Nails detail is a key</h1>
+                    <p class="">The best products in the world in our local.</p>
                     <button class="slider__btn">Read more</button>
                     </div>
 
@@ -132,7 +132,7 @@
     </section>
     <!-- end of slider -->
     <!-- about us section -->
-    <section class="py-5">
+    <section class="py-5" data-aos="fade-down">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
@@ -196,7 +196,7 @@
     <!-- end of services section -->
     <!-- team -->
     <section class="py-5">
-        <div class="container">
+        <div class="container" data-aos="fade-up">
             <div class="row pb-5 services__heading">
                 <div class="col-12 text-center">
                     <h2 class="services__divider">Our team</h2>
@@ -454,7 +454,7 @@
     <!-- end of contact -->
     <!-- footer -->
     <footer class="py-5">
-        <div class="container">
+        <div class="container" data-aos="fade-left">
             <div class="row">
                 <div class="col-xl-3 col-lg-3 footer__heading">
                     <h2 class="footer__divider">About us</h2>
@@ -530,7 +530,9 @@
     <script src="main.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
-        AOS.init();
+        AOS.init({
+            mirror: true,
+        });
     </script>
 </body>
 </html>
