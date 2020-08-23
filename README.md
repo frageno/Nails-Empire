@@ -38,7 +38,7 @@ You can copy this repository's from here, at your computer follow this three ste
 * cd Nails-Empire.git,
 * npm start or run with your localserver 
 
-You can also see this project by a visit this site on netlify hosting where I hosted this web.
+You can also see this project by a visit netlify hosting where I hosted this web.
 
 * https://nailsempire.netlify.app/
 
