@@ -28,7 +28,9 @@ Let's see once more what kind of technologies I used to build this site:
 ## Setup Locally
 <b>Requirements:</b>
 
-* Visual Studio Code
+* Visual Studio Code,
+* Browser,
+* Some time
 
 You can copy this repository's from here, at your computer follow this three steps:
 
