@@ -24,3 +24,21 @@ Let's see once more what kind of technologies I used to build this site:
 * Vanilla JavaScript,
 * jQuery,
 * Bootstrap 4
+
+## Setup Locally
+<b>Requirements:</b>
+
+* Visual Studio Code
+
+You can copy this repository's from here, at your computer follow this three steps:
+
+* git clone https://github.com/frageno/Nails-Empire.io
+
+* cd Nails-Empire.io
+
+* npm start or run with your localserver 
+
+You can also see this project by a visit this site on netlify hosting where I hosted this web.
+
+* https://nailsempire.netlify.app/
+
