@@ -35,10 +35,25 @@ Let's see once more what kind of technologies I used to build this site:
 You can copy this repository's from here, at your computer follow this three steps:
 
 * git clone https://github.com/frageno/Nails-Empire.git,
-* cd Nails-Empire.git,
+* cd Nails-Empire,
 * npm start or run with your localserver 
 
 You can also see this project by a visit netlify hosting where I hosted this web.
 
 * https://nailsempire.netlify.app/
+
+
+## Sources
+
+There are sites or libraries which I used to create this project.
+
+* www.unsplash.com (Images come from unsplash),
+* www.tinypng.com (To compress images),
+* https://michalsnik.github.io/aos/ (Animate on scroll),
+* https://animate.style/ (Animation),
+* https://fontawesome.com/ (Icons),
+* https://www.netlify.com/ (Hosting),
+* Inspiration from others templates,
+* Photoshop CC 2020 to create nicely looking images with some cool effects on my own.
+
 
